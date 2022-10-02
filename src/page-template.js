@@ -16,6 +16,7 @@ const generateEngineer = eng => {
 const generateManager = manage => {
   return `
 <div class= "employee" >
+</div>
 <h2>Name: ${manage.getName()}</h2>
 <h3>Role: ${manage.getRole()}</h3>
 <p>ID: ${manage.getID()}</p>
