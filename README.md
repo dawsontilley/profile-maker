@@ -12,6 +12,6 @@ Javascript, Node
 
 ## Link
 
-![Youtube Link](https://www.youtube.com/watch?v=L9LEBRgYc2s&ab_channel=DawsonT)
+[Video](https://www.youtube.com/watch?v=L9LEBRgYc2s&ab_channel=DawsonT)
 
-!["html output"](src\img\Capture.PNG)
+!["html](./src/img/Capture.PNG)
