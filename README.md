@@ -9,5 +9,5 @@ Javascript, Node
 ## Made by Dawson Tilley
 
 ## Link
-[https://www.youtube.com/watch?v=L9LEBRgYc2s&ab_channel=DawsonT](Youtube Link)
+(Youtube Link)[https://www.youtube.com/watch?v=L9LEBRgYc2s&ab_channel=DawsonT]
 
