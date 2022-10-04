@@ -135,6 +135,7 @@ const nextInput = nextData =>{
              
             case 'Intern':
               internPrompt();
+              break;
             case 'Engineer':
                 promptEngineer();
             default:

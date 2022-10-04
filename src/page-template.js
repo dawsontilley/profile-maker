@@ -1,7 +1,6 @@
 const generateEngineer = eng => {
   return `
 <div class= "employee" >
-<div>
 <h2>Name: ${eng.getName()}</h2>
 <h3>Role: ${eng.getRole()}</h3>
 <p>ID: ${eng.getID()}</p>
@@ -16,7 +15,6 @@ const generateEngineer = eng => {
 const generateManager = manage => {
   return `
 <div class= "employee" >
-</div>
 <h2>Name: ${manage.getName()}</h2>
 <h3>Role: ${manage.getRole()}</h3>
 <p>ID: ${manage.getID()}</p>
@@ -31,7 +29,6 @@ const generateManager = manage => {
 const generateIntern= intern => {
   return `
 <div class= "employee" >
-<div>
 <h2>Name: ${intern.getName()}</h2>
 <h3>Role: ${intern.getRole()}</h3>
 <p>ID: ${intern.getID()}</p>
@@ -50,14 +47,14 @@ const generateMember = memArr => {
   return `
     <section class="my-3" id="members">
       <h2 class=" bg-secondary p-2 display-inline-block">Members</h2>
-      <div class="justify-space-between">
+      <div class="justify-space-between"></div>
       ${memArr.filter(mem =>mem.getRole()=='Manager').map(member=>generateManager(member))}
      
       ${memArr.filter(mem =>mem.getRole()=='Engineer').map(member=>generateEngineer(member))} 
       
       ${memArr.filter(mem =>mem.getRole()=='Intern').map(member=>generateIntern(member))} 
 
-      
+      </section>
   `;
 };
 
